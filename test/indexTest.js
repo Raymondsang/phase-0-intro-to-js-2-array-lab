@@ -32,7 +32,7 @@ describe('index.js', function () {
 
     describe('destructivelyRemoveLastCat()', function () {
       it('removes the last cat from the cats array', function () {
-        destructivelyRemoveLastCat();
+        destructivelyRemoveLastCat();https://github.com/Raymondsang/week-2-code-challenge
 
         expect(cats).to.have.ordered.members(["Milo", "Otis"]).and.to.not.include('Garfield');
       });
